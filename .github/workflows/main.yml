@@ -6,7 +6,7 @@ on:
 
 jobs:
   remind_missing_changelog:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Missing NEXT_CHANGELOG.md Reminder
         uses: mskelton/changelog-reminder-action@v3.0.0
